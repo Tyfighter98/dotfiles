@@ -47,7 +47,7 @@ set $mod Mod4
 ##############################
 #		   Bindings			 #
 ##############################
-bindsym $mod+d exec rofi -show run -lines 3 -eh 2 -width 100 -padding 800 -opacity "85" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd"
+bindsym $mod+space exec rofi -show run -lines 3 -eh 2 -width 100 -padding 800 -opacity "85" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd"
 # i3
 	bindsym $mod+Return exec i3-sensible-terminal
 	bindsym $mod+h split h
@@ -72,7 +72,7 @@ bindsym $mod+d exec rofi -show run -lines 3 -eh 2 -width 100 -padding 800 -opaci
 	bindsym $mod+Down focus down
 	bindsym $mod+Up focus up
 	bindsym $mod+Right focus right
-	bindsym $mod+space focus mode_toggle
+	bindsym $mod+tab focus mode_toggle
 	bindsym $mod+a focus parent
 	#bindsym $mod+d focus child
 
